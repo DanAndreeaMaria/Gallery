@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+img {
+    vertical-align: middle;
+    width: 98.9vw;
+  }
+
+.container {
+    position: relative;
+}
+
+/*hide the imgs by default*/
+.mySlideshow {
+    display: none;
+}
+
+/*add a pointer when hovering over the thumgnail images*/
+.cursor {
+    cursor: pointer;
+}
+
+/*next and prev buttons*/
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    columns: white;
+    font-weight: bold;
+    font-size: 80px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+/*position the next button to the right*/
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/*on hover - add a black bg color with a bit of c-thru*/
+.prev:hover, .next:hover {
+    background-color: white;
+}
+
+/*container for image text*/
+.caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    columns: white;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*columns side by side*/
+.column {
+    float: left;
+    width: 20%;
+}
+
+/*add transparency effect to thumbnail img*/
+.demo {
+    opacity: 0.6;
+}
+
+.active, .demo:hover {
+    opacity: 1;
+}
