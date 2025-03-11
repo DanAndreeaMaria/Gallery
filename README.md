@@ -8,7 +8,7 @@ Here is a simple slideshow image gallery built using HTML, CSS and JavaScript. I
 
 * Automatic hiding of images except for the active one
 * Navigation buttons to move between slides
-* CLickable thumbnail images for direct slide selection
+* Clickable thumbnail images for direct slide selection
 * Smooth transitions for better user experience
 
 ## Technologies used
