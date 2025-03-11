@@ -4,20 +4,20 @@
 
 Here is a simple slideshow image gallery built using HTML, CSS and JavaScript. It allows users to navigate through a set of images using next/previous buttons or by clicking on thumbnails.
 
-##Features
+## Features
 
 * Automatic hiding of images except for the active one
 * Navigation buttons to move between slides
 * CLickable thumbnail images for direct slide selection
 * Smooth transitions for better user experience
 
-##Technologies used
+## Technologies used
 
 * **HTML**
 * **CSS**
 * **JavaScript**
 
-##How to use
+## How to use
 
 1. Open the ```index.html``` file in a web browser
 2. Click the "Next" ```(>)``` or "Previous" ```(<)``` buttons to navigate through the slides
